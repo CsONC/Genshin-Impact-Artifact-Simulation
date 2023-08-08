@@ -81,7 +81,7 @@ def simulate_enhancement(artifact):
         if stat == '小攻击':
             artifact.val.append(random.choice([14,16,18,19]))
         if stat == '元素精通':
-            artifact.val.append(random.choice([16, 9, 21, 23]))
+            artifact.val.append(random.choice([16, 19, 21, 23]))
         if stat == '小防御':
             artifact.val.append(random.choice([16, 19, 21, 23]))
         if stat == '元素充能':
